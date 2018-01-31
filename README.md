@@ -1,6 +1,49 @@
-frontend-nanodegree-arcade-game
-===============================
+# Memory Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Description](#description)
+* [Installation](#installation)
+* [How to play](#play)
+* [Contributing](#contributing)
+* [Known issues](#known)
+* [License](#known)
+
+## Description
+
+This is a game where you have to move the player around and get to the other side of the road while not hitting enemies!
+
+If you manage to get over the road without being hit, your win-count will increase. Be careful tho, because if you are hit, the counter will reset!
+
+Play and see how many wins you get!
+
+## Installation
+
+```
+git clone https://github.com/ZwiFTi/Project-4---arcade-game.git
+cd Project\ 4\ -\ arcade\ game/
+open index.html
+play
+```
+
+## How to play
+
+Keystrokes:
+* `up` - move player up
+* `down` - move player down
+* `left` - move player left
+* `right` - move player right
+
+## Contributing
+
+This project is a practice project, and is therefor not open for contribution.
+
+
+## Known issues
+
+There is no known issues to date.
+
+
+## License
+
+The contents of this repository are covered under the [MIT License](LICENSE).
