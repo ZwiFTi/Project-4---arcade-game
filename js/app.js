@@ -6,7 +6,7 @@ class Enemy {
   constructor() {
     this.x = -100;
     this.y = Math.random() * 184 + 50;
-    this.speed = Math.random() * 256;
+    this.speed = Math.random() * 350;
     this.maxDistanceX = 500;
     this.sprite = 'images/enemy-bug.png';
   }
@@ -21,7 +21,7 @@ class Enemy {
     if (this.x >= this.maxDistanceX) {
       this.x = -100
       this.y = Math.random() * 184 + 50;
-      this.speed = Math.random() * 256;
+      this.speed = Math.random() * 350;
     }
   }
 
@@ -55,7 +55,7 @@ class Enemy {
     && playerObj.y + 73 <= this.y + 135
     && playerObj.x + 76 >= this.x + 11) {
       playerObj.x = 202.5;
-      playerObj.y = 383;
+      playerObj.y = 483;
       playerObj.wins = 0;
       document.querySelector('.wincount').innerHTML = "Wins: " + playerObj.wins;
       }
@@ -70,7 +70,7 @@ class Enemy {
 class Player {
   constructor() {
     this.x = 202.5;
-    this.y = 383;
+    this.y = 483;
     this.speed = 100;
     this.maxDistanceY = 383;
     this.maxDistanceX = 402.5;
@@ -94,7 +94,7 @@ class Player {
   updateIfWin() {
     if (this.y + 63 <= 0) {
       this.x = 202.5;
-      this.y = 383;
+      this.y = 483;
       this.wins += 1;
       document.querySelector('.wincount').innerHTML = "Wins: " + this.wins;
     }
